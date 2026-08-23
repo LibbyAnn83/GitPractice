@@ -15,6 +15,9 @@ struct ContentView: View {
                 .font(.title)
             Text("Built by Elizabeth Nelson")
                 .font(.headline)
+            Text("Learning Git one commit at a time.")
+                .font(.subheadline)
+                .foregroundColor(.secondary)
         }
         .padding()
     }
